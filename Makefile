@@ -6,7 +6,7 @@ all:	shell
 
 shell:
 	mkdir -p my-work
-	docker run --rm -t -i ${ARGS} ipython/scipystack bash
+	docker run --rm -t -i ${ARGS} -w /my-work ipython/scipystack bash
 
 notebook:
 	mkdir -p my-work
