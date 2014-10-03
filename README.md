@@ -4,8 +4,7 @@ coursera-neuraldata
 This repo is for those familiar with [Docker](https://www.docker.com) and
 currently taking the [Neural Data coursera
 course](https://www.coursera.org/course/neuraldata). Instead of Anaconda, we
-leverage Docker to create easily reproducible environments, and also
-ActivePython and PyPM.
+leverage Docker to create easily reproducible environments.
 
 
 how to use
