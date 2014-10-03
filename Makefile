@@ -1,7 +1,11 @@
-all:
+PWD := $(shell pwd)
+
+all:	build shell
+	@echo
+
+build:
 	docker build -t neuraldata .
 
 shell:
-	docker run --rm -t -i neuraldata bash
-
-
+	mkdir -p my-work
+	docker run --rm -t -i -v ${PWD}/my-work:/my-work neuraldata bash
