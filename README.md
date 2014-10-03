@@ -21,3 +21,9 @@ being the current directory. You may edit the problems (extracted under my-work)
 using the editor of your choice, and submit them directly from the docker shell.
 
 This is still a work-in-progress as I work through the course.
+
+IPython notebook
+----------------
+
+Run `make notebook` followed by opening http://${DOCKER_HOST}:8888 in your
+browser.
