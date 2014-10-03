@@ -24,5 +24,5 @@ This is still a work-in-progress as I work through the course.
 IPython notebook
 ----------------
 
-Run `make notebook` followed by opening http://${DOCKER_HOST}:8888 in your
+Run `make notebook` followed by opening https://${DOCKER_HOST} in your
 browser.
